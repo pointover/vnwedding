@@ -44,7 +44,15 @@
             z-index: 2;
         }
 
-        img {
+        hr {
+            margin: 1rem 0;
+            color: #236823;
+            border: 0;
+            border-top: 1px solid;
+            opacity: .25;
+        }
+
+        div img {
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -91,11 +99,19 @@
             height: calc(50vh);
         }
 
+        .footer {
+            background-image: url(/img/background-02.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
     
-        <nav>
+        <nav class="shadow-sm">
             <ul class="nav-list p-0 m-auto justify-content-center align-items-center">
                 <li><a href="#location">จัดที่ไหน?</a></li>
                 <li><a href="#dresscode">แต่งกายอย่างไร?</a></li>
@@ -127,8 +143,8 @@
                 <h3 class="pt-5 mb-3">สถานที่</h3>
                 <hr>
                 <div class="col-12 col-md-6">    
-                    <div class="card w-100 mb-5">
-                        <img class="card-img-top w-100" src="/img/location.jpeg" alt="Card image cap">
+                    <div class="w-100 mb-5 shadow-sm">
+                        <img class="w-100" src="/img/location.jpeg" alt="image cap">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">    
@@ -163,7 +179,7 @@
                             ดาวน์โหลด
                         </button>
                     </a>
-                    <div class="w-100">
+                    <div class="w-100 shadow-sm">
                         <img class="w-100" src="/img/Men Dresscode (Guest).png" alt="Men Dresscode">
                     </div>
                 </div>
@@ -178,7 +194,7 @@
                             ดาวน์โหลด
                         </button>
                     </a>
-                    <div class="w-100">
+                    <div class="w-100 shadow-sm">
                         <img class="w-100" src="/img/Women Dresscode (Guest).png" alt="Women Dresscode">
                     </div>
                 </div>
