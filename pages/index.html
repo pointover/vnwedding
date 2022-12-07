@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Noto+Sans+Thai:wght@100;400;600;700&display=swap'); </style>
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Chonburi', cursive;
+            font-family: 'Noto Sans Thai', sans-serif;
+        }
+        
+
+        @font-face {
+            font-family: AbrilFatface-Regular;
+            src: url(/font/AbrilFatface-Regular.ttf);
+        }
+
+        .header {
+            min-height: calc(100vh - 80px);
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            min-height: 80px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header class="container-xl">
+        <nav>
+            <ul class="nav-list p-0 m-auto justify-content-center align-items-center">
+                <li><a href="#location">จัดที่ไหน?</a></li>
+                <li><a href="#dresscode">แต่งกายอย่างไร?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 header text-center align-items-center d-flex justify-content-center">
+                    <div class="w-50">
+                        <p class="mt-5">รายละเอียดงานแต่งงานของ</p>
+                        <h1 class="h1-hero">วรัณภัสสร์ </h1>
+                        <p class="">และ</p>
+                        <h1>ณัฐกิตติ์</h1>
+                        <p class="mt-5">28 มกราคม 2023</p>
+                        <p>ร่วมเป็นส่วนหนึ่ง ในวันที่ "สำคัญที่สุด" ของเรา</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="text-center align-items-center d-flex justify-content-center">
+        <div class="container-xl pt-5">
+            <div class="row">
+                <h3 class="py-5">รายละเอียดสถานที่</h3>
+                <div class="col-12 col-md-6">    
+                    <div class="card w-100">
+                        <img class="card-img-top w-100" src="/img/location.jpeg" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">    
+                    <div class="location-desc">
+                        <h4>Subdio Garden</h4>
+                        <h6>สถานที่จัดงานแต่งงาน สไตล์สวนอังกฤษ</h6>
+                        <p>เวลา 18.00 น. - 22.00 น.</p>
+                        <a href="https://goo.gl/maps/2mGGinxFgvLCTLbX7" target="_blank"><button type="button" class="btn btn-primary mt-3">เปิดใน Google Map</button></a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+       
+    </section>
+
+    <section id="dresscode" class="text-center align-items-center d-flex justify-content-center">
+        <div class="container-xl py-5">
+            <div class="row">
+                <h3 class="py-5">รายละเอียดการแต่งกาย</h3>
+                <div class="col-12 col-md-6 mt-5">    
+                    <h6>การแต่งกายสำหรับ <b> สุภาพบุรุษ</b></h6>
+                    <div class="card w-100">
+                        <img class="card-img-top w-100" src="/img/Men Dresscode (Guest).png" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-5">    
+                    <h6>การแต่งกายสำหรับ <b>สุภาพสตรี</b></h6>
+                    <div class="card w-100">
+                        <img class="card-img-top w-100" src="/img/Women Dresscode (Guest).png" alt="Card image cap">
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+       
+    </section>
+    
+
+
+    
+</body>
+</html>
