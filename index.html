@@ -79,20 +79,25 @@
         .banner {
             background-image: url(/img/background.png);
             background-position: center;
-            background-size: 100%;
+            background-size: cover;
             background-repeat: no-repeat;
-            width: 100%;
+            display: block;
+        }
 
-            
+        .banner-mobile {
+            display: none;
         }
         @media screen and (max-width: 400px) {
-            .banner {
+            .banner-mobile {
+                display: block;
                 background-image: url(/img/background-mobile.png);
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
-                width: 100%;
             }
+            .banner {
+            display: none;
+        }
         }
 
         .footer .container {
@@ -119,6 +124,25 @@
         </nav>
     
     <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 header text-center align-items-center d-flex justify-content-center">
+                    <div class="w-50">
+                        <p class="mt-5">รายละเอียดงานแต่งงานของ</p>
+                        <h1 class="h1-hero">วรัณภัสสร์ </h1>
+                        <p class="">และ</p>
+                        <h1>ณัฐกิตติ์</h1>
+                        <p class="mt-5">28 มกราคม 2023</p>
+                        <p>ร่วมเป็นส่วนหนึ่ง ในวันที่ "สำคัญที่สุด" ของเรา</p>
+                        <br>
+                        <i class="bi bi-mouse"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="banner-mobile">
         <div class="container">
             <div class="row">
                 <div class="col-12 header text-center align-items-center d-flex justify-content-center">
